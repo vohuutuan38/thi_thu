@@ -16,7 +16,8 @@ class StudentController extends Controller
     public function index()
     {
         $students = Student::all();
-       
+       $stuendt = tcodetreen web;
+        giữ cái nào;
         return view('student.danhsach',compact('students'));
     }
 
